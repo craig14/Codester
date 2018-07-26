@@ -1,0 +1,78 @@
+
+         /*style sheet for index*/
+
+
+
+
+                body {font-family: Arial, Helvetica, sans-serif;}
+                
+                /* Full-width input fields */
+                input[type=text], input[type=password] {
+                    width: 50%;
+                    background-color:transparent;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: none;
+                    border-bottom: 2px solid black;
+                    box-sizing: border-box;
+                    -webkit-transition: width 0.4s ease-in-out;
+                    transition: width 0.4s ease-in-out;
+                    overflow:auto;
+                }
+            input[type=text]:focus,input[type=password]:focus{
+                width: 100%;
+            }
+			
+			label{
+				float:right;margin-right:25%;
+			}
+            
+            
+            /* Set a style for all buttons */
+            button {
+                background-color:black;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 50%;
+            }
+			
+			 button:hover {
+                opacity: 0.7;
+            }
+             /* Center the image and position the close button */
+            .imgcontainer {
+                text-align: center;
+                margin: 20px 10px 10px 10px;
+                position: relative;
+				
+            }
+            
+            img.avatar {
+                width: 30%;
+                border-radius: 100%;
+				background-color:#FF1493;
+            }
+            
+            .container {
+                padding: 16px;
+            }
+			.container-fluid{
+				width:100%;float:right;background-color:#330033;
+			}
+			.card{
+				background-color: #ffb3ff;width:80%;
+			}
+			.modal{
+				width:80%;background-color:#ffb3ff;float:right;
+			}
+			.grey{
+				background-color:grey;background:transparent;margin-left:25%;width:50%;
+			}
+			#login{
+				background-color:black;width:35%;float:center;height:8%;color:white;font-size:24px;
+			}
+			  

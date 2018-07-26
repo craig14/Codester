@@ -1,0 +1,12 @@
+<?php
+$stmt1=$dbconnect->prepare('SELECT * FROM `detail` WHERE  `Bid`= ? ');
+
+    $stmt1->bind_param('s',$bid);
+
+    $stmt1->execute();
+
+    $result1=$stmt1->get_result(); 
+    if($row2=$result1->fetch_assoc()){
+    	$currentAttendance=$row2['Attendance'];
+    	}
+    	?>
